@@ -1,0 +1,230 @@
+
+  body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header {
+      Position: relative;
+      width: 100%;
+      padding: 3px;
+      background: white;
+      backdrop-filter: blur;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600px;
+    }
+  .img{
+    width: 130px;
+    height: 60px;
+    justify-content: center;
+  }
+  .Car{
+    font-weight: 600;
+    font-size: 40px;
+    color: Black;
+   transition: 0.2s ease;
+    
+  }
+  .Car:hover{
+      color: orangered;
+      text-shadow: 25px orangered,
+                    50px orangered;
+      transform: scale(1.1);
+  
+    }
+  
+      .logo{
+      font-size: 50px;
+      color: black;
+      font-weight: 600;
+    }
+    span{
+      color: orangered;
+    }
+    .navbar a {
+      font-size: 18px;
+      color: black;
+      font-weight: 500;
+      margin-left: 60px;
+      transition: 0.1s;
+    }
+    .navbar a:hover,
+    .navbar a.active{
+      color: orangered;
+      border-bottom: 2px solid orangered;
+    } 
+  .img1{
+    height: 20%;
+    width: 20%;
+  }
+  .contact{
+      padding: 8px;
+      margin-right: 2%;
+      background-color: silver;
+      color: black;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: 0.3s ease;
+      max-width:10%;
+    }
+  .contact:hover{
+      background-color: orangered;
+      box-shadow: 0 0 25px orangered;
+      color: white;
+    }
+  
+  
+  .Home {
+      display: flex;
+     width: 15%;
+     height: 100%;
+      background: transparent;
+      display: flex;
+     padding: 10% 5% 0;
+  }
+  .type{
+    max-width: 500px;
+  }
+  .type h2{
+    max-width: 20%;
+    padding: 4px 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    }
+  h1 {
+    color: white;
+    margin-left: 3%;
+    font-size: 70px;
+    font-weight: 900;
+  }
+  h3 {
+    color: white;
+    font-size: 30px;
+  }
+  form{
+    border: 1px Solid white;
+    background: white;
+    background-image: url(loginpic.jpg);
+    display: inline-block;
+    border-radius: 10%;
+    margin-left: 200%;
+    margin-bottom: 90%;
+    font-size: 20Px;
+    font-weight: 400;
+    padding: 8% 70% 0;
+  }
+  form .input-box input{
+      width: 100px;
+      height: 5%;
+      background: white;
+      margin: 10px 0;
+      resize: none;
+      color: black;
+      font-size: 20px;
+    }
+  form input.btn-1{
+    background-color: orangered;
+    height: 5%;
+    width: 100%;
+  }
+  .color{
+    color: yellow;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .content{
+    margin-left: 28%;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+  }
+  .Now{
+    margin: 2rem 0;
+    margin-left: 38%;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+  }
+  .app{
+    margin-left: 40%;
+     padding: 13px;
+      margin-right: 2%;
+      background-color: green;
+      color: white;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      max-width:15%;
+    align-items: center;
+    justify-content: center;
+  }
+  .us{
+    padding: 13px;
+      margin-right: 2%;
+      background-color: skyblue;
+      color: white;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      max-width:15%;
+    align-items: center;
+    justify-content: center;
+  }
+  .brand{
+    background-color: darkslateblue;
+  }
+   .sai {
+      border: 1px solid black;
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      border-radius: 10%
+    }
+  .browse {
+    margin-left: 38%;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .con-sci{
+    background-color: orangered;
+  }
+  .drive{
+    color: white;
+    font-size: 35px;
+  }
+  h2{
+    color: white;
+    font-size: 43px;
+  }
+  h4{
+    color: white;
+    font-size: 32px;
+  }
+  h5{
+    color: white;
+    font-size: 25px;
+  }
+  k{
+    color: white;
+    margin-left: 17%;
+  }

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: grey;
+  }
+ .box{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border-radius: 30px;
+
+
+  }
+  .box form{
+   position: absolute;
+    inset: 4px;
+    background-image: url(loginpic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 55px 20px;
+    border-radius: 30px;
+  }
+  .box form h2{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 40px;
+  }
+  .box form .inputBox{
+    position: relative;
+    width: 70%;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .inputBox input{
+    width: 55%;
+    height: 30px;
+  }
+  span{
+    color: aqua;
+  }
+  .links a{
+    color: yellow;
+    font-size: 20px;
+
+  }
+  .button{
+    font-size: 25px;
+    background-color: greenyellow;
+    margin-left: 50px;
+    width: 100px;
+  }
